@@ -22,7 +22,7 @@ class App extends Component {
         <AUdirectionLink link="#url" text="Skip to footer" direction="down" />
 
         <h2>Accordion</h2>
-        <AUaccordion header="Accordion title">
+        <AUaccordion open header="Accordion title">
           Here <a href="#url">is</a> some accordion content
         </AUaccordion>
 
