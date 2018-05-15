@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@gov.au/accordion": "^2.0.1",
-    "@gov.au/core": "^2.0.0",
-    "@gov.au/direction-links": "^1.0.0",
+    "@gov.au/accordion": "latest",
+    "@gov.au/core": "latest",
+    "@gov.au/direction-links": "latest",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
@@ -51,6 +51,12 @@
     },
     "react": {
       "location": "pancake/react/"
+    },
+    "js": {
+      "minified": true,
+      "modules": false,
+      "location": "pancake/js/",
+      "name": "pancake.min.js"
     }
   }
 }
